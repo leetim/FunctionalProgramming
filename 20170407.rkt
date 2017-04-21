@@ -45,7 +45,7 @@
 ;А теперь немного деревьев
 ;Пиздец как здоровоТ_Т
 (define (atom? l)
-(not (pair? l))
+  (not (pair? l))
 )
 (list (list 1 2) 3 4)
 (atom? (list 1 2))
